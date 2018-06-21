@@ -1,0 +1,1112 @@
+RECV:	V1 1 2
+
+RECV:	WB9C1
+
+RECV:	CB9Creator(tm) Firmware version 1.1.2 running on a B9Creator Model 1
+
+RECV:	CCopyright 2012, 2013 B9Creations, LLC
+
+RECV:	CB9Creations(tm) and B9Creator(tm) are trademarks of B9Creations, LLC
+
+RECV:	CThis work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License.
+
+RECV:	CTo view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/
+
+RECV:	CFor updates and to download the lastest version, visit http://b9creator.com
+
+RECV:	A1
+
+RECV:	I1000
+
+RECV:	J1
+
+RECV:	K2000
+
+RECV:	M32000
+
+RECV:	R1
+
+RECV:	Y400
+
+RECV:	Z0
+
+RECV:	D1024
+
+RECV:	E768
+
+RECV:	H100
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+2018-06-19 18:55:48 Tue
+CMD:	P1
+RECV:	P0
+
+2018-06-19 18:55:51 Tue
+CMD:	P0
+2018-06-19 18:55:53 Tue
+CMD:	P1
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+2018-06-19 18:56:30 Tue
+CMD:	P1
+2018-06-19 18:56:32 Tue
+CMD:	P0
+2018-06-19 18:56:35 Tue
+CMD:	P0
+RECV:	P0
+
+2018-06-19 18:56:35 Tue
+CMD:	P0
+2018-06-19 18:56:35 Tue
+CMD:	P0
+2018-06-19 18:56:36 Tue
+CMD:	P0
+2018-06-19 18:56:36 Tue
+CMD:	P0
+2018-06-19 18:56:37 Tue
+CMD:	P0
+2018-06-19 18:56:37 Tue
+CMD:	P0
+2018-06-19 18:56:37 Tue
+CMD:	P0
+RECV:	P0
+
+2018-06-19 18:56:40 Tue
+CMD:	P1
+2018-06-19 18:56:41 Tue
+CMD:	P0
+2018-06-19 18:56:43 Tue
+CMD:	P0
+2018-06-19 18:56:43 Tue
+CMD:	P0
+2018-06-19 18:56:43 Tue
+CMD:	P0
+2018-06-19 18:56:43 Tue
+CMD:	P0
+2018-06-19 18:56:44 Tue
+CMD:	P0
+2018-06-19 18:56:44 Tue
+CMD:	P0
+2018-06-19 18:56:44 Tue
+CMD:	P0
+2018-06-19 18:56:44 Tue
+CMD:	P0
+RECV:	P0
+
+2018-06-19 18:56:45 Tue
+CMD:	P0
+2018-06-19 18:56:47 Tue
+CMD:	P1
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+2018-06-19 18:57:11 Tue
+CMD:	#0
+2018-06-19 18:57:12 Tue
+CMD:	#0
+2018-06-19 18:57:12 Tue
+CMD:	#0
+2018-06-19 18:57:12 Tue
+CMD:	#0
+2018-06-19 18:57:12 Tue
+CMD:	#0
+RECV:	P0
+
+2018-06-19 18:57:16 Tue
+CMD:	P1
+2018-06-19 18:57:18 Tue
+CMD:	P1
+2018-06-19 18:57:19 Tue
+CMD:	P0
+RECV:	P0
+
+2018-06-19 18:57:21 Tue
+CMD:	P0
+2018-06-19 18:57:22 Tue
+CMD:	P0
+2018-06-19 18:57:22 Tue
+CMD:	P0
+2018-06-19 18:57:22 Tue
+CMD:	P0
+2018-06-19 18:57:22 Tue
+CMD:	P0
+2018-06-19 18:57:23 Tue
+CMD:	P0
+2018-06-19 18:57:23 Tue
+CMD:	P0
+2018-06-19 18:57:23 Tue
+CMD:	P0
+2018-06-19 18:57:23 Tue
+CMD:	P0
+2018-06-19 18:57:23 Tue
+CMD:	P0
+2018-06-19 18:57:24 Tue
+CMD:	P0
+2018-06-19 18:57:24 Tue
+CMD:	P0
+2018-06-19 18:57:25 Tue
+CMD:	P0
+2018-06-19 18:57:25 Tue
+CMD:	P0
+2018-06-19 18:57:25 Tue
+CMD:	P0
+RECV:	P0
+
+2018-06-19 18:57:25 Tue
+CMD:	P0
+2018-06-19 18:57:25 Tue
+CMD:	P0
+2018-06-19 18:57:26 Tue
+CMD:	P0
+2018-06-19 18:57:26 Tue
+CMD:	P0
+2018-06-19 18:57:26 Tue
+CMD:	P0
+2018-06-19 18:57:26 Tue
+CMD:	P0
+2018-06-19 18:57:26 Tue
+CMD:	P0
+2018-06-19 18:57:26 Tue
+CMD:	P0
+2018-06-19 18:57:27 Tue
+CMD:	P0
+2018-06-19 18:57:27 Tue
+CMD:	P0
+RECV:	P0
+
+RECV:	V1 1 2
+
+RECV:	WB9C1
+
+RECV:	CB9Creator(tm) Firmware version 1.1.2 running on a B9Creator Model 1
+
+RECV:	CCopyright 2012, 2013 B9Creations, LLC
+
+RECV:	CB9Creations(tm) and B9Creator(tm) are trademarks of B9Creations, LLC
+
+RECV:	CThis work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License.
+
+RECV:	CTo view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/
+
+RECV:	CFor updates and to download the lastest version, visit http://b9creator.com
+
+RECV:	A1
+
+RECV:	I1000
+
+RECV:	J1
+
+RECV:	K2000
+
+RECV:	M32000
+
+RECV:	R1
+
+RECV:	Y400
+
+RECV:	Z0
+
+RECV:	D1024
+
+RECV:	E768
+
+RECV:	H100
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+2018-06-19 19:09:50 Tue
+CMD:	P1
+2018-06-19 19:09:52 Tue
+CMD:	P0
+2018-06-19 19:09:56 Tue
+CMD:	P0
+2018-06-19 19:09:57 Tue
+CMD:	P0
+2018-06-19 19:09:57 Tue
+CMD:	P0
+2018-06-19 19:09:58 Tue
+CMD:	P0
+2018-06-19 19:09:58 Tue
+CMD:	P0
+2018-06-19 19:09:58 Tue
+CMD:	P0
+2018-06-19 19:09:59 Tue
+CMD:	P0
+2018-06-19 19:10:01 Tue
+CMD:	P0
+2018-06-19 19:10:01 Tue
+CMD:	P0
+2018-06-19 19:10:02 Tue
+CMD:	P0
+2018-06-19 19:10:02 Tue
+CMD:	P0
+2018-06-19 19:10:02 Tue
+CMD:	P0
+2018-06-19 19:10:03 Tue
+CMD:	P0
+2018-06-19 19:10:03 Tue
+CMD:	P0
+2018-06-19 19:10:04 Tue
+CMD:	P0
+2018-06-19 19:10:04 Tue
+CMD:	P0
+2018-06-19 19:10:06 Tue
+CMD:	P1
+RECV:	V1 1 2
+
+RECV:	WB9C1
+
+RECV:	CB9Creator(tm) Firmware version 1.1.2 running on a B9Creator Model 1
+
+RECV:	CCopyright 2012, 2013 B9Creations, LLC
+
+RECV:	CB9Creations(tm) and B9Creator(tm) are trademarks of B9Creations, LLC
+
+RECV:	CThis work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License.
+
+RECV:	CTo view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/
+
+RECV:	CFor updates and to download the lastest version, visit http://b9creator.com
+
+RECV:	A1
+
+RECV:	I1000
+
+RECV:	J1
+
+RECV:	K2000
+
+RECV:	M32000
+
+RECV:	R1
+
+RECV:	Y400
+
+RECV:	Z0
+
+RECV:	D1024
+
+RECV:	E768
+
+RECV:	H100
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+2018-06-19 19:14:18 Tue
+CMD:	P0
+2018-06-19 19:14:23 Tue
+CMD:	P0
+RECV:	P0
+
+2018-06-19 19:14:24 Tue
+CMD:	P0
+2018-06-19 19:14:28 Tue
+CMD:	P0
+RECV:	P0
+
+2018-06-19 19:14:29 Tue
+CMD:	P0
+2018-06-19 19:14:30 Tue
+CMD:	P0
+2018-06-19 19:14:30 Tue
+CMD:	P0
+RECV:	P0
+
+2018-06-19 19:14:33 Tue
+CMD:	P0
+2018-06-19 19:14:34 Tue
+CMD:	P0
+2018-06-19 19:14:35 Tue
+CMD:	P0
+2018-06-19 19:14:35 Tue
+CMD:	P0
+2018-06-19 19:14:35 Tue
+CMD:	P0
+2018-06-19 19:14:36 Tue
+CMD:	P0
+2018-06-19 19:14:36 Tue
+CMD:	P0
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+2018-06-19 19:22:54 Tue
+CMD:	P0
+2018-06-19 19:22:56 Tue
+CMD:	P0
+2018-06-19 19:22:56 Tue
+CMD:	P0
+2018-06-19 19:22:56 Tue
+CMD:	P0
+2018-06-19 19:22:57 Tue
+CMD:	P0
+2018-06-19 19:22:57 Tue
+CMD:	P0
+2018-06-19 19:22:57 Tue
+CMD:	P0
+2018-06-19 19:22:57 Tue
+CMD:	P0
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	V1 1 2
+
+RECV:	WB9C1
+
+RECV:	CB9Creator(tm) Firmware version 1.1.2 running on a B9Creator Model 1
+
+RECV:	CCopyright 2012, 2013 B9Creations, LLC
+
+RECV:	CB9Creations(tm) and B9Creator(tm) are trademarks of B9Creations, LLC
+
+RECV:	CThis work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License.
+
+RECV:	CTo view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/
+
+RECV:	CFor updates and to download the lastest version, visit http://b9creator.com
+
+RECV:	A1
+
+RECV:	I1000
+
+RECV:	J1
+
+RECV:	K2000
+
+RECV:	M32000
+
+RECV:	R1
+
+RECV:	Y400
+
+RECV:	Z0
+
+RECV:	D1024
+
+RECV:	E768
+
+RECV:	H100
+
+RECV:	P0
+
+RECV:	V1 1 2
+
+RECV:	WB9C1
+
+RECV:	CB9Creator(tm) Firmware version 1.1.2 running on a B9Creator Model 1
+
+RECV:	CCopyright 2012, 2013 B9Creations, LLC
+
+RECV:	CB9Creations(tm) and B9Creator(tm) are trademarks of B9Creations, LLC
+
+RECV:	CThis work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License.
+
+RECV:	CTo view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/
+
+RECV:	CFor updates and to download the lastest version, visit http://b9creator.com
+
+RECV:	A1
+
+RECV:	I1000
+
+RECV:	J1
+
+RECV:	K2000
+
+RECV:	M32000
+
+RECV:	R1
+
+RECV:	Y400
+
+RECV:	Z0
+
+RECV:	D1024
+
+RECV:	E768
+
+RECV:	H100
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	V1 1 2
+
+RECV:	WB9C1
+
+RECV:	CB9Creator(tm) Firmware version 1.1.2 running on a B9Creator Model 1
+
+RECV:	CCopyright 2012, 2013 B9Creations, LLC
+
+RECV:	CB9Creations(tm) and B9Creator(tm) are trademarks of B9Creations, LLC
+
+RECV:	CThis work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License.
+
+RECV:	CTo view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/
+
+RECV:	CFor updates and to download the lastest version, visit http://b9creator.com
+
+RECV:	A1
+
+RECV:	I1000
+
+RECV:	J1
+
+RECV:	K2000
+
+RECV:	M32000
+
+RECV:	R1
+
+RECV:	Y400
+
+RECV:	Z0
+
+RECV:	D1024
+
+RECV:	E768
+
+RECV:	H100
+
+RECV:	                                                                                                                                                                                                                                                                       P0
+
+RECV:	V1 1 2
+
+RECV:	WB9C1
+
+RECV:	CB9Creator(tm) Firmware version 1.1.2 running on a B9Creator Model 1
+
+RECV:	CCopyright 2012, 2013 B9Creations, LLC
+
+RECV:	CB9Creations(tm) and B9Creator(tm) are trademarks of B9Creations, LLC
+
+RECV:	CThis work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License.
+
+RECV:	CTo view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/
+
+RECV:	CFor updates and to download the lastest version, visit http://b9creator.com
+
+RECV:	A1
+
+RECV:	I1000
+
+RECV:	J1
+
+RECV:	K2000
+
+RECV:	M32000
+
+RECV:	R1
+
+RECV:	Y400
+
+RECV:	Z0
+
+RECV:	D1024
+
+RECV:	E768
+
+RECV:	H100
+
+RECV:	P0
+
+RECV:	P0
+
+2018-06-19 19:40:51 Tue
+CMD:	P1
+RECV:	P0
+
+2018-06-19 19:40:57 Tue
+CMD:	P0
+RECV:	P0
+
+2018-06-19 19:41:01 Tue
+CMD:	P1
+2018-06-19 19:41:03 Tue
+CMD:	P0
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	V1 1 2
+
+RECV:	WB9C1
+
+RECV:	CB9Creator(tm) Firmware version 1.1.2 running on a B9Creator Model 1
+
+RECV:	CCopyright 2012, 2013 B9Creations, LLC
+
+RECV:	CB9Creations(tm) and B9Creator(tm) are trademarks of B9Creations, LLC
+
+RECV:	CThis work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License.
+
+RECV:	CTo view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/
+
+RECV:	CFor updates and to download the lastest version, visit http://b9creator.com
+
+RECV:	A1
+
+RECV:	I1000
+
+RECV:	J1
+
+RECV:	K2000
+
+RECV:	M32000
+
+RECV:	R1
+
+RECV:	Y400
+
+RECV:	Z0
+
+RECV:	D1024
+
+RECV:	E768
+
+RECV:	H100
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+
+RECV:	P0
+

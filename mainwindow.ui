@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1000</width>
+    <height>800</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>WINSUN</string>
+  </property>
+  <widget class="QWidget" name="WINSUN">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <layout class="QHBoxLayout" name="WorldViewContext"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1000</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="toolTip">
+     <string>文件</string>
+    </property>
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionNew_Project"/>
+    <addaction name="actionOpen_Project"/>
+    <addaction name="actionSave"/>
+    <addaction name="actionSave_As"/>
+    <addaction name="separator"/>
+    <addaction name="actionPrint"/>
+   </widget>
+   <widget class="QMenu" name="menuEdit">
+    <property name="toolTip">
+     <string>编辑</string>
+    </property>
+    <property name="title">
+     <string>Edit</string>
+    </property>
+    <addaction name="actionAdd_Model"/>
+    <addaction name="actionDelete"/>
+    <addaction name="actionDuplicate"/>
+    <addaction name="separator"/>
+    <addaction name="actionRotate"/>
+    <addaction name="actionMove"/>
+    <addaction name="actionScale"/>
+    <addaction name="actionDrop_To_Floor"/>
+    <addaction name="separator"/>
+   </widget>
+   <widget class="QMenu" name="menuView">
+    <property name="toolTip">
+     <string>视图</string>
+    </property>
+    <property name="title">
+     <string>View</string>
+    </property>
+    <addaction name="actionTop_View"/>
+    <addaction name="actionBottom_View"/>
+    <addaction name="actionLeft_View"/>
+    <addaction name="actionRight_View"/>
+    <addaction name="actionFront_View"/>
+    <addaction name="actionBack_View"/>
+   </widget>
+   <widget class="QMenu" name="menu_5">
+    <property name="toolTip">
+     <string>切片</string>
+    </property>
+    <property name="title">
+     <string>Slice</string>
+    </property>
+    <addaction name="showSlices"/>
+    <addaction name="slice"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuEdit"/>
+   <addaction name="menuView"/>
+   <addaction name="menu_5"/>
+  </widget>
+  <widget class="QToolBar" name="fileToolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QToolBar" name="editToolBar">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>16777215</width>
+     <height>16777215</height>
+    </size>
+   </property>
+   <property name="windowTitle">
+    <string>toolBar_2</string>
+   </property>
+   <property name="movable">
+    <bool>true</bool>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QToolBar" name="viewToolBar">
+   <property name="maximumSize">
+    <size>
+     <width>16777215</width>
+     <height>16777215</height>
+    </size>
+   </property>
+   <property name="windowTitle">
+    <string>toolBar_3</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QToolBar" name="SupportToolBar">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>1677725</width>
+     <height>16777215</height>
+    </size>
+   </property>
+   <property name="windowTitle">
+    <string>toolBar_6</string>
+   </property>
+   <property name="movable">
+    <bool>true</bool>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionNew_Project">
+   <property name="icon">
+    <iconset resource="b9edit/b9edit.qrc">
+     <normaloff>:/B9Edit/icons/new.png</normaloff>:/B9Edit/icons/new.png</iconset>
+   </property>
+   <property name="text">
+    <string>New</string>
+   </property>
+   <property name="toolTip">
+    <string>新建</string>
+   </property>
+  </action>
+  <action name="actionOpen_Project">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="b9edit/b9edit.qrc">
+     <normaloff>:/B9Edit/icons/open.png</normaloff>:/B9Edit/icons/open.png</iconset>
+   </property>
+   <property name="text">
+    <string>Open</string>
+   </property>
+   <property name="toolTip">
+    <string>打开</string>
+   </property>
+  </action>
+  <action name="actionSave">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="b9edit/b9edit.qrc">
+     <normaloff>:/B9Edit/icons/save.png</normaloff>:/B9Edit/icons/save.png</iconset>
+   </property>
+   <property name="text">
+    <string>Save</string>
+   </property>
+   <property name="toolTip">
+    <string>保存</string>
+   </property>
+  </action>
+  <action name="actionAdd_Model">
+   <property name="icon">
+    <iconset resource="b9edit/b9edit.qrc">
+     <normaloff>:/B9Edit/icons/new4.png</normaloff>:/B9Edit/icons/new4.png</iconset>
+   </property>
+   <property name="text">
+    <string>Add Model</string>
+   </property>
+   <property name="toolTip">
+    <string>添加模型</string>
+   </property>
+  </action>
+  <action name="actionDelete">
+   <property name="icon">
+    <iconset resource="b9edit/b9edit.qrc">
+     <normaloff>:/B9Edit/icons/new3.png</normaloff>:/B9Edit/icons/new3.png</iconset>
+   </property>
+   <property name="text">
+    <string>Delete Model</string>
+   </property>
+   <property name="toolTip">
+    <string>删除模型</string>
+   </property>
+  </action>
+  <action name="actionDuplicate">
+   <property name="icon">
+    <iconset resource="b9edit/b9edit.qrc">
+     <normaloff>:/B9Edit/icons/delete2.png</normaloff>:/B9Edit/icons/delete2.png</iconset>
+   </property>
+   <property name="text">
+    <string>Duplicate Model</string>
+   </property>
+   <property name="toolTip">
+    <string>复制模型</string>
+   </property>
+  </action>
+  <action name="actionCenter_View">
+   <property name="text">
+    <string>Center</string>
+   </property>
+   <property name="toolTip">
+    <string>中央</string>
+   </property>
+  </action>
+  <action name="actionTop_View">
+   <property name="text">
+    <string>Top</string>
+   </property>
+   <property name="toolTip">
+    <string>顶部</string>
+   </property>
+  </action>
+  <action name="actionBottom_View">
+   <property name="text">
+    <string>Bottom</string>
+   </property>
+   <property name="toolTip">
+    <string>底部</string>
+   </property>
+  </action>
+  <action name="actionLeft_View">
+   <property name="text">
+    <string>Left</string>
+   </property>
+   <property name="toolTip">
+    <string>左侧</string>
+   </property>
+  </action>
+  <action name="actionRight_View">
+   <property name="icon">
+    <iconset resource="b9edit/b9edit.qrc">
+     <normaloff>:/B9Edit/icons/boxsupporticon.png</normaloff>:/B9Edit/icons/boxsupporticon.png</iconset>
+   </property>
+   <property name="text">
+    <string>Right</string>
+   </property>
+   <property name="toolTip">
+    <string>右侧</string>
+   </property>
+  </action>
+  <action name="actionFront_View">
+   <property name="text">
+    <string>Front</string>
+   </property>
+   <property name="toolTip">
+    <string>前面</string>
+   </property>
+  </action>
+  <action name="actionBack_View">
+   <property name="text">
+    <string>Back</string>
+   </property>
+   <property name="toolTip">
+    <string>后面</string>
+   </property>
+  </action>
+  <action name="actionRotate">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="b9edit/b9edit.qrc">
+     <normaloff>:/B9Edit/icons/rotate3.png</normaloff>:/B9Edit/icons/rotate3.png</iconset>
+   </property>
+   <property name="text">
+    <string>Ratate</string>
+   </property>
+   <property name="toolTip">
+    <string>旋转</string>
+   </property>
+  </action>
+  <action name="actionMove">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="b9edit/b9edit.qrc">
+     <normaloff>:/B9Edit/icons/crosshair.png</normaloff>:/B9Edit/icons/crosshair.png</iconset>
+   </property>
+   <property name="text">
+    <string>Move</string>
+   </property>
+   <property name="toolTip">
+    <string>平移</string>
+   </property>
+  </action>
+  <action name="actionScale">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="b9edit/b9edit.qrc">
+     <normaloff>:/B9Edit/icons/scale3.png</normaloff>:/B9Edit/icons/scale3.png</iconset>
+   </property>
+   <property name="text">
+    <string>Scale</string>
+   </property>
+   <property name="toolTip">
+    <string>缩放</string>
+   </property>
+  </action>
+  <action name="Support_Add_Supports_action">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>添加支撑</string>
+   </property>
+  </action>
+  <action name="Support_Delete_Supports_action">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>删除支撑</string>
+   </property>
+  </action>
+  <action name="showSlices">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Show Slice</string>
+   </property>
+   <property name="toolTip">
+    <string>查看切片</string>
+   </property>
+  </action>
+  <action name="materialCatalog">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>材料设置</string>
+   </property>
+  </action>
+  <action name="cyclePrintSetting">
+   <property name="text">
+    <string>循环打印设置</string>
+   </property>
+  </action>
+  <action name="terminal">
+   <property name="text">
+    <string>终端操作</string>
+   </property>
+  </action>
+  <action name="openProjector">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>打开投影仪</string>
+   </property>
+  </action>
+  <action name="buildSpace">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>显示器设置</string>
+   </property>
+  </action>
+  <action name="Foundation_action">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>地基</string>
+   </property>
+  </action>
+  <action name="SupportSettings_action">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>设置</string>
+   </property>
+  </action>
+  <action name="Support_Reset_Light_button">
+   <property name="text">
+    <string>小号</string>
+   </property>
+  </action>
+  <action name="Support_Reset_Medium_button">
+   <property name="text">
+    <string>中号</string>
+   </property>
+  </action>
+  <action name="Support_Reset_Heavy_button">
+   <property name="text">
+    <string>大号</string>
+   </property>
+  </action>
+  <action name="otherSupport">
+   <property name="text">
+    <string>其他型号</string>
+   </property>
+  </action>
+  <action name="slice">
+   <property name="icon">
+    <iconset resource="b9edit/b9edit.qrc">
+     <normaloff>:/B9Edit/icons/slice1.png</normaloff>:/B9Edit/icons/slice1.png</iconset>
+   </property>
+   <property name="text">
+    <string>Slice</string>
+   </property>
+   <property name="toolTip">
+    <string>切片</string>
+   </property>
+  </action>
+  <action name="actionSave_As">
+   <property name="text">
+    <string>Save As</string>
+   </property>
+   <property name="toolTip">
+    <string>另存为</string>
+   </property>
+  </action>
+  <action name="actionExport">
+   <property name="text">
+    <string>导出</string>
+   </property>
+  </action>
+  <action name="actionDrop_To_Floor">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Drop to Floor</string>
+   </property>
+   <property name="toolTip">
+    <string>落底</string>
+   </property>
+  </action>
+  <action name="actionSupport">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>支撑操作</string>
+   </property>
+  </action>
+  <action name="RemoveAllSupports_action">
+   <property name="text">
+    <string>清空支撑</string>
+   </property>
+  </action>
+  <action name="actionPrint">
+   <property name="text">
+    <string>Print</string>
+   </property>
+   <property name="toolTip">
+    <string>打印</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="b9edit/b9edit.qrc"/>
+ </resources>
+ <connections/>
+ <slots>
+  <slot>OnBasePlatePropertiesChanged()</slot>
+  <slot>SetSupportMode(bool)</slot>
+  <slot>SetToolModelMove()</slot>
+  <slot>SetToolModelSpin()</slot>
+  <slot>SetToolModelOrientate()</slot>
+  <slot>SetToolModelScale()</slot>
+  <slot>SetToolSupportAdd()</slot>
+  <slot>SetToolSupportDelete()</slot>
+  <slot>DropSelectionToFloor()</slot>
+ </slots>
+</ui>

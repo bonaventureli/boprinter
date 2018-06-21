@@ -1,0 +1,45 @@
+<RCC>
+    <qresource prefix="/B9Edit">
+        <file>icons/edit.png</file>
+        <file>icons/importslices.png</file>
+        <file>icons/new.png</file>
+        <file>icons/open.png</file>
+        <file>icons/save.png</file>
+        <file>icons/123.png</file>
+        <file>icons/boxsupporticon.png</file>
+        <file>icons/bucket.png</file>
+        <file>icons/bucketblackicon.png</file>
+        <file>icons/bucketwhite.png</file>
+        <file>icons/bucketwhiteicon.png</file>
+        <file>icons/crosshair.png</file>
+        <file>icons/cylindersupporticon.png</file>
+        <file>icons/delete.png</file>
+        <file>icons/delete1.jpg</file>
+        <file>icons/delete2.png</file>
+        <file>icons/delete3.jpg</file>
+        <file>icons/delete4.png</file>
+        <file>icons/delete5.jpg</file>
+        <file>icons/diamondsupporticon.png</file>
+        <file>icons/editoriconbright.png</file>
+        <file>icons/editoricondeactivated.png</file>
+        <file>icons/jobicon.png</file>
+        <file>icons/move1.jpg</file>
+        <file>icons/new (2).png</file>
+        <file>icons/new2.png</file>
+        <file>icons/new3.png</file>
+        <file>icons/new4.png</file>
+        <file>icons/penblack.png</file>
+        <file>icons/penblackicon.png</file>
+        <file>icons/penwhite.png</file>
+        <file>icons/penwhiteicon.png</file>
+        <file>icons/print2.jpg</file>
+        <file>icons/rotate1.jpg</file>
+        <file>icons/rotate2.jpg</file>
+        <file>icons/rotate3.png</file>
+        <file>icons/scale1.jpg</file>
+        <file>icons/scale2.png</file>
+        <file>icons/scale3.png</file>
+        <file>icons/slice1.png</file>
+        <file>icons/trianglesupporticon.png</file>
+    </qresource>
+</RCC>
